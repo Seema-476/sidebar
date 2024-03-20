@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    scroll-behavior: smooth;
+}
+
+.head {
+    color: #808080;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.opensidebar {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 13px 28px;
+    border: none;
+    background-color: #128dff;
+    border-radius: 4px;
+}
+
+.opensidebar:hover {
+    background-color: #1284df;
+}
+
+.sidebar {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.link1 {
+    color: #128dff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 93px;
+    border: 1px solid #128dff;
+    border-radius: 4px;
+    white-space: nowrap;
+    transition: 200ms linear;
+}
+
+.link1:hover {
+    color: #ffffff;
+    background-color: #128dff;
+}
+
+/* 
+.Icon span:nth-child(1) {
+    width: 30px;
+    height: 4px;
+    background: #808080;
+    transform: rotate(48deg) translateY(-22px);
+    display: inline-block;
+}
+
+.Icon span:nth-child(2) {
+    width: 30px;
+    height: 4px;
+    background: #808080;
+    transform: rotate(128deg) translateY(23px);
+    display: inline-block;
+} */
+
+.bglayer {
+    position: relative;
+}
+
+.bglayer {
+    width: 100%;
+    height: 100%;
+    background: #b9b9b9;
+    opacity: 0.35;
+    position: fixed;
+    background-color: #ffffff;
+    display: none;
+    transition: 300ms linear;
+}
+
+.sidebarpage {
+    box-shadow: 9px 4px 26px 0px #0000000F;
+    width: 286px;
+    height: 100vh;
+    padding: 21px 29px;
+    border-radius: 0 16px 16px 0;
+    position: absolute;
+    top: 0;
+    left: -286px;
+    transition: all 300ms linear;
+}
+
+.sidebarpage.show {
+    left: 0;
+}
+
+.curser-pointer {
+    cursor: pointer;
+}
